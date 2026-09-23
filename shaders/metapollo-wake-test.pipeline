@@ -1,0 +1,15 @@
+# ============================================================
+# METAPOLLO WAKE VISUAL TEST
+# ============================================================
+
+startgroup
+
+    animation_start user-activity
+
+    animation_stop 900
+    animation_curve linear
+    animation_step 16
+
+    shaders metapollo-wake-test
+
+endgroup

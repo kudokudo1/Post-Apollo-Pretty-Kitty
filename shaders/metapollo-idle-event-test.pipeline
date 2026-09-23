@@ -1,0 +1,15 @@
+# ============================================================
+# IDLE EVENT TEST
+#
+# If Kitty fires user-idle, play our proven wake animation.
+# ============================================================
+
+startgroup
+    animation_start user-idle
+
+    animation_stop 900
+    animation_curve linear
+    animation_step 16
+
+    shaders metapollo-wake-test
+endgroup

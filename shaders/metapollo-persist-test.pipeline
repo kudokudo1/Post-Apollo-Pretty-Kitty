@@ -1,0 +1,36 @@
+textures persist
+
+
+# ============================================================
+# IDLE — WRITE MARKER INTO PERSIST
+# ============================================================
+
+startgroup
+
+    animation_start user-idle
+    animation_stop user-activity
+
+    animation_step 16
+
+    output_texture persist
+
+    shaders metapollo-persist-arm-test
+
+endgroup
+
+
+# ============================================================
+# ACTIVITY — READ MARKER
+# ============================================================
+
+startgroup
+
+    animation_start user-activity
+    animation_stop 900
+
+    animation_curve linear
+    animation_step 16
+
+    shaders metapollo-persist-read-test
+
+endgroup

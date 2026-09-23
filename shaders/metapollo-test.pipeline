@@ -1,0 +1,7 @@
+startgroup
+    var float WARP = 0.08
+    var float SCAN = 2.0
+    var float4 TINT = float4(1.0, 1.0, 1.0, 0.0)
+
+    shaders crt
+endgroup
