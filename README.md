@@ -1,6 +1,6 @@
 ✦︎✦︎✦︎ Meta Apollo Logos //
 
-# 🖳 POST-APOLLO // KITTY CRT
+# 🖳 KITTY // PRETTY KITTY
 
 ![](BUILD/assets/design/chassis/focus-rail.svg)
 
