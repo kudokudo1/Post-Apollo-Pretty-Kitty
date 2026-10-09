@@ -23,3 +23,12 @@ The terminal surface of the Post-Apollo Family — enhancing the relationship be
 ### ★⋆˙ CORE // RUNTIME LAYOUT
 
 The seven rooms are a semantic documentation layer. Existing live files remain in their current paths unless the runtime itself is intentionally migrated.
+
+## Kitty relationship
+
+Pretty Kitty is built **for the Kitty terminal emulator** and uses Kitty's configuration and custom-shader interfaces.
+
+This repository does not vendor the Kitty terminal source tree. The current provenance audit found the tracked `kitty.conf`, Post-Apollo shader pipeline, shader sources, theme configuration, and helper integration rather than a copied Kitty source distribution.
+
+Kitty remains a separate upstream project under its own license. Any third-party or upstream-derived snippets discovered later should retain their original attribution and license, but merely targeting Kitty's configuration/shader APIs does not make the Post-Apollo shader work a copy of Kitty itself.
+
